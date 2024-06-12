@@ -16,7 +16,7 @@ for(i in 1:3){
   
   for(j in 2:200){
     
-    y[j] <- y[(j-1)]*ar[i] + rnorm(n = 1, mean = 0, sd = 1)
+    y[j] <- y[(j-1)]*ar[i] + rnorm(n = 1, mean = 0, sd = 1) # random time series with different AR(1) values
     
     
     
